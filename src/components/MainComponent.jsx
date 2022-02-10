@@ -8,13 +8,13 @@ function MainComponent(props) {
 
     return (
         <div className="flex flex-row">
-            <div className="bg-[#4A314D]">
-
+            <div className="flex flex-col bg-[#4A314D] h-screen w-16">
+                
             </div>
-            <div className="w-64 fixed top-0 left-0 h-screen m-0 flex flex-col bg-white shadow-lg">
+            <div className="flex flex-col bg-[#F2F5F0] h-screen w-72">
                 <PreviewerComponent/>
             </div>
-            <div className="ml-64 w-screen h-screen">
+            <div className="flex flex-col bg-[#FBFEF9] w-screen h-screen">
                 
             </div>
         </div>
